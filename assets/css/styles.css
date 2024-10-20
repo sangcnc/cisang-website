@@ -815,7 +815,11 @@ transition: background-color 6000s, color 6000s;
   }
 
   .perfil__img{
-    width: 450px;
+    width: 600px;
+  }
+
+  .perfil__img{
+    right:1px;
   }
 
   .perfil__data{
@@ -840,7 +844,7 @@ transition: background-color 6000s, color 6000s;
   }
 
   .about__image{
-    height: 210px;
+    height: 310px;
   }
 
   .about__img{
@@ -938,6 +942,17 @@ transition: background-color 6000s, color 6000s;
     bottom: 0;
     margin-block: auto;
   }
+
+  .perfil__img {
+    width: 750px;
+    left: 50px;
+}
+
+  .about__image{
+    width: 230px;
+    height: 360px;
+    left: 25px;
+}
 
   .info__img{
     width: 260px;
