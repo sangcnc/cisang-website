@@ -192,7 +192,7 @@ img {
 }
 
 .perfil__img{
-  width: 350px;
+  width: 150px;
   right: 24px;
   position: absolute;
   justify-self: center;
@@ -681,10 +681,6 @@ transition: background-color 6000s, color 6000s;
   }
 }
 
-.perfil__img{
-  width: 40px;
-  right: 20px;
-}
 
 .perfil__data{
   padding: 0.075rem 0.01rem;
@@ -698,9 +694,9 @@ transition: background-color 6000s, color 6000s;
 }
 
 .perfil__img{
-  width: 340px;
+  width: 240px;
   right: 24px;
-  bottom: 1px;
+  top: 2px;
   position: absolute;
   justify-self: center;
   align-self: flex-end;
@@ -717,6 +713,12 @@ transition: background-color 6000s, color 6000s;
   }
   .nav__list{
     column-gap: 1.25rem;
+  }
+
+  .perfil__img{
+    width: 240px;
+    right: 30px;
+    top: 2px;
   }
 
   .home__container,
